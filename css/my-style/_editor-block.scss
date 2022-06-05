@@ -1,0 +1,21 @@
+.dr-gb-block-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .dr-archive-single {
+        padding: 0 0 10px 0;
+        box-shadow: 0 0 10px 9px #7861617a;
+        figure {
+            a {
+                width: 100%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    overflow: hidden;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}

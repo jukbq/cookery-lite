@@ -1,0 +1,32 @@
+.dr-gb-block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dr-gb-block-wrap .dr-archive-single {
+  padding: 0 0 10px 0;
+  -webkit-box-shadow: 0 0 10px 9px #7861617a;
+          box-shadow: 0 0 10px 9px #7861617a;
+}
+
+.dr-gb-block-wrap .dr-archive-single figure a {
+  width: 100%;
+  height: 100%;
+}
+
+.dr-gb-block-wrap .dr-archive-single figure a img {
+  width: 100%;
+  overflow: hidden;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
